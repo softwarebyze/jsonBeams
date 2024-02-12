@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.ts",
     "generate-db": "npx ts-node generate-db.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "json-server db.json"
   },
   "keywords": [],
   "author": "",
